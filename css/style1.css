@@ -13,6 +13,8 @@ header{
     height: 9vh;
     background: var(--bg-color);
     top:0;
+    position: fixed;
+    width: 100%;
 }
 nav{
     display: flex;
@@ -55,6 +57,7 @@ nav a:hover {
     height: 85vh;
     display: flex;
     align-items: center;
+    padding-top: 30px;
 }
 .content{
     margin: 162px;
